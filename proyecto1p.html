@@ -1,39 +1,94 @@
-<Html>
-  <header>
-    <style>
-      p {
-       background-image: url('<img src="dinosaur.jpg"/>');
-     }
-    </style>
-  </header>
-  <body>
-    <table>
-      <tr>
-      <th>ANIMALES</th>
-      <th>DESCRIPCION</th>
-      <th>IMAGEN</th>
-  </tr>
-  <tr>
-        <td>
-          DELFIN
-        </td>
-         <td>
-         Los delfines son mamíferos marinos cetáceos, caracterizados por su alta inteligencia, cuerpo
-         hidrodinámico y sociabilidad. Miden entre 2 y 3 metros, tienen piel lisa grisácea, aleta 
-         dorsal y hocico alargado. Son carnívoros, usan la ecolocalización para cazar y viven en 
-         grupos complejos, respirando aire a través de un espiráculo.  
-        </td>
-         <td>
-           <p>
-             <img src="https://pixnio.com/es/media/animal-salto-delfin-saltar-fauna"
-              alt="imagen de un delfin"
-               width="300">
-           </p>
-        </td>
-      </tr>
-      <tr>
-        
-      </tr>
-    </table>
-  </body>
-</Html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Tabla de Animales Funcional</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+th, td {
+  border: 1px solid #34495e;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #34495e;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ecf0f1;
+}
+
+tr:hover {
+  background-color: #d1e7ff;
+}
+
+img {
+  width: 120px;
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+
+<h2>Animales del Mundo</h2>
+
+<table>
+<tr>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Imagen</th>
+</tr>
+
+<tr>
+<td>León</td>
+<td>El león es un gran felino conocido como el rey de la selva.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="León"></td>
+</tr>
+
+<tr>
+<td>Tigre</td>
+<td>El tigre es el felino más grande del mundo y tiene rayas negras.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" alt="Tigre"></td>
+</tr>
+
+<tr>
+<td>Panda</td>
+<td>El panda gigante es un oso de China conocido por su pelaje blanco y negro y su amor por el bambú.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG" alt="Panda"></td>
+</tr>
+
+<tr>
+<td>Águila</td>
+<td>El águila es un ave rapaz conocida por su aguda vista y vuelo majestuoso.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Aquila_chrysaetos_-_01.jpg" alt="Águila"></td>
+</tr>
+
+<tr>
+<td>Delfín</td>
+<td>El delfín es un mamífero marino muy inteligente y social.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Common_dolphin_porpoising.jpg" alt="Delfín"></td>
+</tr>
+
+</table>
+
+</body>
+</html>
