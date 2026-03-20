@@ -3,98 +3,111 @@
 <style>
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
+  background: linear-gradient(to right, #f8e1f4, #e0c3fc);
   margin:20px;
 }
 
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #6a0dad;
+}
+
+h2 {
+  margin-left: 20px;
+  color: #8e44ad;
+}
+
+.descripcion {
+  margin-left: 20px;
+  color: #5e3370;
 }
 
 table {
   border-collapse: collapse;
   width: 90%;
   margin: auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(128,0,128,0.3);
+  background-color: #fff0f6;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 th, td {
-  border: 1px solid #34495e;
+  border: 1px solid #d291bc;
   padding: 12px;
   text-align: center;
 }
-  
+
 th {
-  background-color: #2c3e50;
-  color: white;
-  padding: 10px;
-th {
-  background-color: #34495e;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
   color: white;
 }
 
 tr:nth-child(even) {
-  background-color: #F54927;
+  background-color: #f9d5ec;
+}
+
+tr:nth-child(odd) {
+  background-color: #fce4f7;
 }
 
 tr:hover {
-  background-color: #D6F527;
+  background-color: #e0b3ff;
+  transition: 0.3s;
 }
 
 img {
   width: 120px;
-  border-radius: 8px;
+  border-radius: 10px;
+  border: 3px solid #d291bc;
 }
 </style>
 </head>
 <body>
 
 <h1>Fernanda Paola Garduño Esquivel</h1>
-  
+
 <h2>Tabla de animales</h2>
-  
-  <p class="descripcion">
-Este proyecto consiste en una tabla de HTML con diferentes animales, cada animal muestra su imagen e incluye una descripción corto. 
+
+<p class="descripcion">
+Este proyecto consiste en una tabla de HTML con diferentes animales, cada animal muestra su imagen e incluye una descripción corta. 
 </p>
-  
+
 <table>
 <tr>
-<td>León</td>
-<td>El león es un gran felino conocido como el rey de la selva.</td>
-<td><img src="leon.PNG " alt="León"></td>
+<th>Animal</th>
+<th>Descripción</th>
+<th>Imagen</th>
 </tr>
 
 <tr>
-<td>delfin</td>
-<td>El Delfín Común es un mamífero marino cuyo cuerpo es delgado y de elevada hidrodinamia, muy adaptado para nadar a alta velocidad.
-  <img src=DELFIN.png
-</td>
+<td>León</td>
+<td>El león es un gran felino conocido como el rey de la selva.</td>
+<td><img src="leon.PNG" alt="León"></td>
+</tr>
+
+<tr>
+<td>Delfín</td>
+<td>El delfín común es un mamífero marino cuyo cuerpo es delgado y muy adaptado para nadar a alta velocidad.</td>
+<td><img src="DELFIN.png" alt="Delfín"></td>
 </tr>
 
 <tr>
 <td>Panda</td>
-<td>El panda gigante es un oso de China conocido por su pelaje blanco y negro y su amor por el bambú,
-  oso panda o panda gigante es una especie de mamífero del orden de los carnívoros.
-  ​​<img src=PANDA.png
-</td>
+<td>El panda gigante es un oso de China conocido por su pelaje blanco y negro y su amor por el bambú.</td>
+<td><img src="PANDA.png" alt="Panda"></td>
 </tr>
 
 <tr>
-<td>jirafa</td>
-<td>La jirafa es una especie de mamífero artiodáctilo, de la familia Giraffidae propio de África. 
-  Es la más alta de todas las especies de animales terrestres existentes.
-   ​​<img src=JIRAFA.png
-</td>
+<td>Jirafa</td>
+<td>La jirafa es un mamífero africano y el animal terrestre más alto del mundo.</td>
+<td><img src="JIRAFA.png" alt="Jirafa"></td>
 </tr>
 
 <tr>
-<td>pantera negra</td>
-<td>La pantera negra no es una especie distinta, sino una variación melánica
-  (exceso de pigmento negro) de grandes felinos,
-  principalmente jaguares (América) y leopardos (África/Asia).
-   ​​<img src=PANTERA NEGRA.png
-</td>
+<td>Pantera negra</td>
+<td>La pantera negra es una variación de jaguares o leopardos con exceso de pigmentación oscura.</td>
+<td><img src="PANTERA NEGRA.png" alt="Pantera negra"></td>
 </tr>
 
 </table>
