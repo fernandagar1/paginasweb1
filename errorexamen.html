@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Examen Práctico: Catálogo de Hardware 2026</title>
+
     <style>
         body {
-            background-color: #6DC36D;
-            color: #6DC36D;
+            background-color: #f4f6f7;
+            color: #333;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
         }
-            
+
         .titulo-principal {
             text-align: center;
-            color: #1e8449;
+            color: #2980b9;
         }
 
         .tabla-productos {
             width: 100%;
             border-collapse: collapse;
+            border: 3px solid green; /* ✅ borde verde externo */
         }
 
-        .tabla-productos th,
-        .tabla-productos td {
-            border: 1px solid #1e8449;
+        .tabla-productos th, .tabla-productos td {
+            border: 1px solid #ccc;
             padding: 10px;
         }
 
-        .tabla-productos th {
-            background-color: #27ae60;
-            color: white;
-        }
-
         .img-producto {
-            border: 2px dashed #1e8449;
+            border: 2px dashed #2980b9;
             border-radius: 8px;
+            width: 120px;
+            height: auto;
         }
 
         .texto-alerta {
-            color: #c0392b;
+            color: red;
             font-weight: bold;
+        }
+
+        td {
+            text-align: center;
         }
     </style>
 </head>
@@ -52,7 +54,7 @@
 
     <table class="tabla-productos">
         <thead>
-            <tr>
+            <tr style="background-color: #2980b9; color: white;">
                 <th>Vista Previa</th>
                 <th>Descripción del Producto</th>
                 <th>Categoría</th>
@@ -62,8 +64,8 @@
 
         <tbody>
             <tr>
-                <td align="center">
-                    <img src="https://via.placeholder.com/100?text=CPU" class="img-producto" width="100">
+                <td>
+                    <img src="procesador.PNG" class="img-producto">
                 </td>
                 <td>
                     <h3>Procesador Quantum X1</h3>
@@ -74,8 +76,8 @@
             </tr>
 
             <tr>
-                <td align="center">
-                    <img src="https://via.placeholder.com/100?text=RAM" class="img-producto" width="100">
+                <td>
+                    <img src="ram.PNG" class="img-producto">
                 </td>
                 <td>
                     <h3>Memoria RAM DDR6 64GB</h3>
@@ -86,8 +88,8 @@
             </tr>
 
             <tr>
-                <td align="center">
-                    <img src="https://via.placeholder.com/100?text=SSD" class="img-producto" width="100">
+                <td>
+                    <img src="ssd.PNG" class="img-producto">
                 </td>
                 <td>
                     <h3>SSD Holográfico 10TB</h3>
